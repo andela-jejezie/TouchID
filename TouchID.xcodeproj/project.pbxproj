@@ -12,6 +12,7 @@
 		A51CD4801DF684C200541F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51CD47E1DF684C200541F9D /* Main.storyboard */; };
 		A51CD4821DF684C200541F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51CD4811DF684C200541F9D /* Assets.xcassets */; };
 		A51CD4851DF684C200541F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51CD4831DF684C200541F9D /* LaunchScreen.storyboard */; };
+		A51CD48E1DF6856600541F9D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51CD48D1DF6856600541F9D /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A51CD4811DF684C200541F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51CD4841DF684C200541F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A51CD4861DF684C200541F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51CD48D1DF6856600541F9D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51CD48E1DF6856600541F9D /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				A51CD4791DF684C200541F9D /* TouchID */,
 				A51CD4781DF684C200541F9D /* Products */,
+				A51CD48C1DF6856600541F9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				A51CD4861DF684C200541F9D /* Info.plist */,
 			);
 			path = TouchID;
+			sourceTree = "<group>";
+		};
+		A51CD48C1DF6856600541F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51CD48D1DF6856600541F9D /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
